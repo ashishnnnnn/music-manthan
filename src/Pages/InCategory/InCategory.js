@@ -20,9 +20,6 @@ export const InCategory = () => {
           <div
             key={ele._id}
             className="bg-slate-700 rounded-3xl mb-8 flex-1 cursor-pointer"
-            // onClick={() => {
-            //   navigate(`/in-category/${ele._id}`);
-            // }}
           >
             <img src={ele.src} className="w-full rounded-3xl	md:h-72" />
             <div className="w-11/12 mx-auto py-8">

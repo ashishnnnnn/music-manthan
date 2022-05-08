@@ -2,7 +2,6 @@ import { Category } from "../../Data/Category";
 import { useNavigate } from "react-router-dom";
 
 export const Home = () => {
-  console.log(Category);
   let navigate = useNavigate();
   return (
     <div>
