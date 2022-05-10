@@ -13,7 +13,7 @@ export const Home = () => {
         {Category.map((ele) => (
           <div
             key={ele._id}
-            className="bg-slate-700 rounded-3xl mb-8 flex-1 cursor-pointer"
+            className="bg-slate-700 rounded-3xl mb-8 flex-1 cursor-pointer hover:shadow-md hover:shadow-slate-300	"
             onClick={() => {
               navigate(`/in-category/${ele._id}`);
             }}

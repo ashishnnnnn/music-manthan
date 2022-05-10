@@ -1,35 +1,30 @@
-import { v4 as uuid } from "uuid";
-
 export const Category = [
   {
-    _id: uuid(),
+    _id: "song-quiz",
     category_name: "Song-Quiz",
     src: "https://play-lh.googleusercontent.com/MFFBcqC4f6OjMFmSGQkW9Ww5hK5J47zJhFsrvvVPeja-hScwn7WTPi0lyeH4t3jAtQ",
     quizzes: [
       {
-        _id: uuid(),
+        _id: "songs-knwoledge",
         name: "Test Your Song Knowledge",
         questions: [
           {
-            _id: uuid(),
             ques_name: " Which of these is a song from the movie 'Veer-Zaara'?",
             options: [
               "Main Yahaan Hoon",
               "Silsila Ye Chahaat Ka",
-              "Silsila Ye Chahaat Ka",
+              "Dhoom",
               "Chup Chup Ke",
             ],
             answer: 0,
           },
           {
-            _id: uuid(),
             ques_name:
               "Which of these people sang a part in the song 'Maahi Ve'?",
             options: ["Sadhana Sargam", "Shaan", "Alka Yagnik", " Loy Mendosa"],
             answer: 0,
           },
           {
-            _id: uuid(),
             ques_name: "Who starred in the song 'You Are My Soniya'?",
             options: [
               " Abhishek & Aishwarya",
@@ -40,7 +35,6 @@ export const Category = [
             answer: 2,
           },
           {
-            _id: uuid(),
             ques_name:
               "The song 'Tumhe Jo Maine Dekha' starred which of these people?",
             options: [
@@ -52,7 +46,6 @@ export const Category = [
             answer: 1,
           },
           {
-            _id: uuid(),
             ques_name:
               "'Where's the Party Tonight', 'Rock and Roll Soniye', and 'Mitwa' are songs from what popular movie?",
             options: [
@@ -67,11 +60,10 @@ export const Category = [
         src: "https://assets.website-files.com/61c070585317d2b435a597a4/61cc5e4448ee45202b7a09c4_Song%20Quiz.png",
       },
       {
-        _id: uuid(),
+        _id: "guess-the-song",
         name: "Guess The Song",
         questions: [
           {
-            _id: uuid(),
             ques_name: `Jaise gadhi ke gihra se,
                         Waqt kahin pe gira ho,
                         Jaise roshni subah se,
@@ -81,7 +73,6 @@ export const Category = [
             answer: 3,
           },
           {
-            _id: uuid(),
             ques_name: `Which song are these lyrics a part of?
                         "Jis pal na chaha tujhko,
                         Uss pal sazayein maangi,
@@ -95,7 +86,6 @@ export const Category = [
             answer: 1,
           },
           {
-            _id: uuid(),
             ques_name: `"Dil kho gaya, ho gaya kisi ka,
                         Ab raasta mil gaya kushi ka"
                         These are the lyrics to which of the following songs?`,
@@ -108,7 +98,6 @@ export const Category = [
             answer: 0,
           },
           {
-            _id: uuid(),
             ques_name: `"Tumhe kaise main bataun, kya main paa gaya hoon,
                         Tum jo mere saath ho,
                         Mujhko duniya mil gayi hai, zindagi badal gayi hai
@@ -122,7 +111,6 @@ export const Category = [
             answer: 0,
           },
           {
-            _id: uuid(),
             ques_name: `these are the lyrics to which song?
                         "Dhandha Hai Yeh Uska Puraana,
                         Hai Ram, Kudiyon Ko Daale Daana."
@@ -141,24 +129,22 @@ export const Category = [
     ],
   },
   {
-    _id: uuid(),
+    _id: "singer-quiz",
     category_name: "Bollywood-Singer-Quiz",
     src: "https://ezeedigi.com/images/app919/landingpage.jpg",
     quizzes: [
       {
-        _id: uuid(),
+        _id: "your-faviorate-singer",
         name: "How much do you know about Your Faviorate Singer",
         src: "https://i.ytimg.com/vi/1g0BoRJjrQo/maxresdefault.jpg",
         questions: [
           {
-            _id: uuid(),
             ques_name:
               "Aditya Prateek Singh Sisodia is the real name of which Indian rapper?",
             options: ["Yo Yo Honey Singh", "Emiway", "Badshah", "Divine"],
             answer: 2,
           },
           {
-            _id: uuid(),
             ques_name:
               "Who among the following has won the maximum number of National Awards for Playback Singing (Male)",
             options: [
@@ -170,7 +156,6 @@ export const Category = [
             answer: 2,
           },
           {
-            _id: uuid(),
             ques_name: "Gulzar's real name is….?",
             options: [
               "Sampooran Singh Kalra",
@@ -181,7 +166,6 @@ export const Category = [
             answer: 0,
           },
           {
-            _id: uuid(),
             ques_name:
               "Who was first Indian composer to get nominated for an Oscar?",
             options: [
@@ -193,7 +177,6 @@ export const Category = [
             answer: 3,
           },
           {
-            _id: uuid(),
             ques_name: "Who sang 'Yeh Tara Woh Tara' in the movie Swadesh?",
             options: [
               "Udit Narayan",
@@ -206,18 +189,16 @@ export const Category = [
         ],
       },
       {
-        _id: uuid(),
+        _id: "arijit-fan-or-not",
         name: "Are You a Real Fan Of Arijit Singh..Let's Test It",
         src: "https://www.thelivemirror.com/wp-content/uploads/2020/02/Arijit-Singh-Quiz-1280x720.jpg",
         questions: [
           {
-            _id: uuid(),
             ques_name: "What is Arijit Singh's Bollywood debut song?",
             options: ["Phir Mohabaat", "Tum Hi Hoo", "Duaa", "Uska Hii Bana"],
             answer: 0,
           },
           {
-            _id: uuid(),
             ques_name:
               "What is the name of his first reality show in his career where he participated ?",
             options: [
@@ -229,7 +210,6 @@ export const Category = [
             answer: 2,
           },
           {
-            _id: uuid(),
             ques_name: "Who is his favorite singer ?",
             options: [
               "Mohammed Rafi",
@@ -240,13 +220,11 @@ export const Category = [
             answer: 0,
           },
           {
-            _id: uuid(),
             ques_name: "How many awards he received for his Tum Hi Ho song?",
             options: ["9", "10", "12", "7"],
             answer: 0,
           },
           {
-            _id: uuid(),
             ques_name: "What is the name of his owned NGO?",
             options: [
               "Being Human",

@@ -1,5 +1,5 @@
 import "./App.css";
-import { Home, InCategory } from "./Pages";
+import { Home, InCategory, Rules, QuizPage, Result } from "./Pages";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -8,6 +8,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/in-category/:category_id" element={<InCategory />} />
+        <Route path="/rules" element={<Rules />} />
+        <Route path="/quizPage" element={<QuizPage />} />
+        <Route path="/result" element={<Result />} />
       </Routes>
     </div>
   );
