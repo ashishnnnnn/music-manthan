@@ -15,7 +15,7 @@ export const Home = () => {
       {localtoken ? (
         <button
           type="submit"
-          className="w-20 h-10 md:w-24	md:h-14 bg-slate-100 text-slate-900 rounded-xl md:text-xl	font-semibold	fixed top-21 right-5 md:top-10"
+          className="w-20 h-10 md:w-24	md:h-14 bg-slate-100 text-slate-900 rounded-xl md:text-xl	font-semibold	absolute top-21 right-5 md:top-10"
           onClick={async () => {
             await logoutHandle();
             handleaddtoast({
@@ -29,7 +29,7 @@ export const Home = () => {
       ) : (
         <button
           type="submit"
-          className="w-16 h-10 md:w-24	md:h-14 bg-slate-100 text-slate-900 rounded-xl md:text-xl	font-semibold	fixed top-21 right-5 md:top-10"
+          className="w-16 h-10 md:w-24	md:h-14 bg-slate-100 text-slate-900 rounded-xl md:text-xl	font-semibold	absolute top-21 right-5 md:top-10"
           onClick={() => {
             navigate("/login");
           }}
