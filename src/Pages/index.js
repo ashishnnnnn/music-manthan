@@ -7,3 +7,7 @@ export { Rules } from "./Rules/Rules";
 export { QuizPage } from "./QuizPage/QuizPage";
 
 export { Result } from "./Result/Result";
+
+export { Login } from "./Login/Login";
+
+export { Signup } from "./Signup/Signup";
