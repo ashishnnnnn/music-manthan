@@ -1,6 +1,6 @@
 <div align="center">
-<h1 align="center">Quiz App</h1>
-<p align="center">Best Place to test your knowledge</p>
+<h1 align="center">Music Manthan</h1>
+<p align="center">Let's Test Your Song Knowledge</p>
 
 </div>
 
@@ -17,7 +17,7 @@
 ## Built With
 
 - [React JS](https://reactjs.org/)
-- [CerebrumUI Component Library](https://cerebrumui.netlify.app/)
+- [Pinakin Component Library](https://pinakin-ui.netlify.app/)
 - CSS
 - [React Router v6](https://reactrouter.com/)
 
