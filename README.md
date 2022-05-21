@@ -17,8 +17,7 @@
 ## Built With
 
 - [React JS](https://reactjs.org/)
-- [Pinakin Component Library](https://pinakin-ui.netlify.app/)
-- CSS
+- Tailwind CSS
 - [React Router v6](https://reactrouter.com/)
 
 ---
